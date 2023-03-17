@@ -38,7 +38,7 @@
         <ul>
             <li> The value returned by PIVOT <b>is not</b> a Table object, it is a list of lists that can be accessed like a list, but not like a Table
                 (this is because the <code>PIVOT</code> call results in row labels, which is not Table-like for DASIS) </li>
-            <li> The data returned by the <code>PIVOT</code> block contains one column for every unique value of the column corresponding with
+            <li> The data returned by the <code>PIVOT</code> block contains one column for every unique value under
             the first column label argument </li>
             <li> The returned data also contains a row for each unique value of the column corresponding to the second column label argument </li>
             <li> The values at each (row, column) location is the number of rows in the original Table that had both the column and row values
